@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.div`
     width: 100%;
     height: 70px;
+    z-index: 1;
+    
 `;
 
 export const Wrapper = styled.div`
@@ -23,13 +25,14 @@ export const Menu = styled.ul`
     @media screen and (max-width: 960px) {
         position: absolute;
         top: 70px;
-        left: ${({open}) => open ? '0' : '-100%' };
+        left: ${({open}) => open ? '0' : '-120%' };
         width: 100%;
-        height: 90vh;
+        height: 40vh;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         transition: 0.5s all ease;
+        background: var(--navyBlue);
     }
 `;
 
