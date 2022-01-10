@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     width: 100%;
     height: 70px;
-    z-index: 1;
+    z-index: 2;
     
 `;
 
@@ -27,7 +27,7 @@ export const Menu = styled.ul`
         top: 70px;
         left: ${({open}) => open ? '0' : '-120%' };
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -145,3 +145,5 @@ export const MobileIcon = styled.div `
         }
     }
 `
+
+

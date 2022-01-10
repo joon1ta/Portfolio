@@ -1,6 +1,6 @@
 import Navbar from './Components/Navbar/Navbar'
 import Main from './Components/Main/Main'
-import {useState} from 'react'
+
 function App() {
 
  
@@ -9,9 +9,7 @@ function App() {
   <>
   
       <Navbar />
-      
-   
-    <Main />
+      <Main />
   </>
     
   );
